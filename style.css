@@ -1,0 +1,13 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.hidden {
+  color: 000;
+  opacity: 0.1;
+}

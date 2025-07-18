@@ -1,6 +1,6 @@
 body {
   background-color: #000;
-  color: #fff;
+  color: #000;
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
   margin: 0;
@@ -8,6 +8,11 @@ body {
 }
 
 .hidden {
-  color: 000;
+  color: #0a0a0a;
   opacity: 0.1;
+}
+
+/* Optional overrides if needed */
+p, h1, h2, h3, h4, span {
+  color: inherit; /* inherits from body, which is already white */
 }
